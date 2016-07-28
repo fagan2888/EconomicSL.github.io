@@ -27,7 +27,7 @@ author: prauwolf
 #
 #url: 'https://phlow.github.io/feeling-responsive'
 #url: 'https://prauwolf.github.io'
-url: 'http://127.0.0.1:4000'
+url: 'http://prauwolf.github.io'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -43,7 +43,7 @@ baseurl: ''
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 #urlimg: 'https://prauwolf.github.io/images/'
-urlimg: 'http://127.0.0.1:4000/images/'
+urlimg: 'http://prauwolf.github.io/images/'
 #urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 # Logo size is 600x80 pixels
