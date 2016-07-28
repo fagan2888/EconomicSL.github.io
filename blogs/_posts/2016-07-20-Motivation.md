@@ -8,7 +8,7 @@ header:
     image_fullwidth: RauwolfMtnCloud.jpg
 image:
     thumb:  rockclimbingIcon.jpg
-    homepage: carrot.jpg
+    homepage: carrot.JPG
 categories:
     - design
     - overview
