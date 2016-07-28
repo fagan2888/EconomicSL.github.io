@@ -48,6 +48,10 @@ DEPENDENCIES
   jekyll (= 3.0.2)
   jekyll-gist
   jekyll-paginate
+  jekyll-scholar
+  bibtex-ruby
+  citeproc-ruby
+  csl-styles
 
 BUNDLED WITH
    1.10.6

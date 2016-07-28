@@ -8,29 +8,33 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'Feeling Responsive'
+title: 'ESP'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A Flexible Theme for Jekyll'
+slogan: 'A toolkit for economic models'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Feeling Responsive« is a responsive theme for Jekyll based on the fabulous foundation framework with beautiful typography and a bright color palette.'
+description: '»Economic Simulation Platform (ESP)« A toolkit for building economic systems via data-driven agent-based models'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
 
 # Main author of the website
 # See > authors.yml
-author: phlow
+author: prauwolf
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://phlow.github.io/feeling-responsive'
+#url: 'https://phlow.github.io/feeling-responsive'
+#url: 'https://prauwolf.github.io'
+url: 'http://127.0.0.1:4000'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
-improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+#improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+#improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
+
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -38,8 +42,9 @@ improve_content: https://github.com/Phlow/feeling-responsive/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://phlow.github.io/feeling-responsive/images/'
-
+#urlimg: 'https://prauwolf.github.io/images/'
+urlimg: 'http://127.0.0.1:4000/images/'
+#urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -55,6 +60,8 @@ logo: "logo.png"
 gems:
     - jekyll-gist
     - jekyll-paginate
+    - jekyll/scholar
+
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
 
@@ -110,7 +117,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author:    # Default author for pages
   -
     scope:
       path: ''
@@ -118,8 +125,8 @@ defaults:
     values:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
-      comments: false
-      author: phlow     # Default author for posts
+      comments: true
+      author:     # Default author for posts
 
 
 
@@ -146,6 +153,36 @@ google_site_verification:  'Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ'
 bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
 # alexa_verify_id:         ''
 
+#
+# scholar
+#
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
 
 
 #       ______            _
@@ -156,16 +193,16 @@ bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
 favicon-32x32:                          'favicon-32x32.png'
-touch-icon-192x192:                     'touch-icon-192x192.png'
-apple-touch-icon-180x180-precomposed:   'apple-touch-icon-180x180-precomposed.png'
-apple-touch-icon-152x152-precomposed:   'apple-touch-icon-152x152-precomposed.png'
-apple-touch-icon-144x144-precomposed:   'apple-touch-icon-144x144-precomposed.png'
-apple-touch-icon-120x120-precomposed:   'apple-touch-icon-120x120-precomposed.png'
-apple-touch-icon-114x114-precomposed:   'apple-touch-icon-114x114-precomposed.png'
-apple-touch-icon-76x76-precomposed:     'apple-touch-icon-76x76-precomposed.png'
-apple-touch-icon-72x72-precomposed:     'apple-touch-icon-72x72-precomposed.png'
-apple-touch-icon-precomposed:           'apple-touch-icon-precomposed.png'
-msapplication_tileimage:                'msapplication_tileimage.png'               # Size 144x144
+touch-icon-192x192:                     'favicon-32x32.png'
+apple-touch-icon-180x180-precomposed:   'favicon-32x32.png'
+apple-touch-icon-152x152-precomposed:   'favicon-32x32.png'
+apple-touch-icon-144x144-precomposed:   'favicon-32x32.png'
+apple-touch-icon-120x120-precomposed:   'favicon-32x32.png'
+apple-touch-icon-114x114-precomposed:   'favicon-32x32.png'
+apple-touch-icon-76x76-precomposed:     'favicon-32x32.png'
+apple-touch-icon-72x72-precomposed:     'favicon-32x32.png'
+apple-touch-icon-precomposed:           'favicon-32x32.png'
+msapplication_tileimage:                'favicon-32x32.png'               # Size 144x144
 msapplication_tilecolor:                '#fabb00'
 
 
@@ -175,9 +212,9 @@ msapplication_tilecolor:                '#fabb00'
 #    / __/ / /_/ / /__/  __/ /_/ / /_/ / /_/ / ,<
 #   /_/    \__,_/\___/\___/_.___/\____/\____/_/|_|      Facebook-Optimization › http://j.mp/fb_optimize
 
-og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
-og_locale:                          'en_EN'
-og_type:                            'website'
+#og_image:                           'http://images.phlow.de/phlow/phlow_de-logo-512x.png'
+#og_locale:                          'en_EN'
+#og_type:                            'website'
 
 
 #      _____            _       __   __  ___         ___
@@ -190,8 +227,8 @@ og_type:                            'website'
 #
 
 socialmedia:
-    twitter: phlow
-    facebook: phlow.media
+    twitter: INETeconomics
+    facebook: INETeconomics
 
 
 #        ____  _
@@ -203,7 +240,7 @@ socialmedia:
 #
 # used in _includes/comments
 
-disqus_shortname: feelingresponsive
+disqus_shortname: economicsimulationplatorm
 
 
 #      _____
@@ -227,7 +264,7 @@ sass:
 #
 # used in _includes/footer_scripts
 
-google_analytics_tracking_id: UA-60112281-1
+#google_analytics_tracking_id: UA-60112281-1
 
 
 
