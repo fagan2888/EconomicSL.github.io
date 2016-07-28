@@ -5,7 +5,7 @@ subheadline: "Behind the Scenes"
 meta_teaser: "The impetus behind ESP"
 teaser: "Why are we building ESP?"
 header:
-    image_fullwidth: RauwolfMtnCloud.jpg
+    image_fullwidth: RauwolfMtnCloud.JPG
 image:
     thumb:  rockclimbingIcon.jpg
     homepage: carrot.JPG
