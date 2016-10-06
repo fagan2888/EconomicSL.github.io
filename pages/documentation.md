@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "ESP Documentation"
-subheadline: "How to use the Economic Simulation Platform"
+title: "ESL Documentation"
+subheadline: "How to use the Economic Simulation Library"
 teaser: "The documentation is a work in progress..."
 permalink: "/documentation/"
 breadcrumb: true

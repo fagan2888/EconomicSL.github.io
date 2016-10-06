@@ -17,8 +17,16 @@
   url: "/documentation/"
   side: left
 
+- title: Projects
+  url: "/projects/"
+  side: left
+
 - title: "Search"
   url: "/search/"
+  side: right
+
+- title: "Personnel"
+  url: "/personnel/"
   side: right
 
 - title: "Contact"

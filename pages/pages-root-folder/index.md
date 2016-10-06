@@ -10,21 +10,21 @@ header:
   image_fullwidth: scalABM-bg.jpg
 
 widget1:
-  title: "What is ESP?"
+  title: "What is ESL?"
   url: '/overview/'
-  text: 'ESP is a community driven, open-source project to develop a user-friendly modeling platform and tool stack for building scalable, data-driven, and reproducible agent-based models of economic systems.'
+  text: 'Economic Simulation Library is a community driven, open-source project to develop a user-friendly modeling library for building agent-based models of economic systems.'
   image: economyDown.jpg
   #video: '<a href="#" data-reveal-id="https://www.youtube.com/watch?v=wC9dCSYAjFs"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget2:
   title: "Blog"
   url: "/blog/"
   image: widget-1-302x182.jpg
-  text: "Development of ESP is underway. Check out our blog to see what's new."
+  text: "Development of ESL is underway. Check out our blog to see what's new."
 widget3:
-  title: "Download ESP"
+  title: "Download ESL"
   url: "https://github.com/ScalABM"
   image: widget-github-303x182.jpg
-  text: "Want to begin building your own economic models? Download ESP to get started."
+  text: "Want to begin building your own economic models? Download ESL to get started."
 #
 # Use the call for action to show a button on the frontpage
 #

@@ -10,53 +10,41 @@ header:
 permalink: "/overview/"
 ---
 
-**Economic Simulation Platform (ESP)** is a community driven, open-source project to develop a user-friendly
-modeling platform and tool stack for building scalable, data-driven, and reproducible agent-based models (ABMs) of economic systems on the JVM using Scala and Akka. It is a suite of tools which allows users to build an agent-based
-model of their unique economic system with minimal development using existing plug-and-play modules.
+**Economic Simulation Library (ESL)** is a open-source project to develop a user-friendly software library for building agent-based models (ABMs) of economic systems. The goal is to build a Java library which acts as a starting point for a variety of economic models. In the near term, this will come in the form of several abstract classes of constructs commonly found in economic models, including balance sheets, contracts, and markets. We are then constructing an API for how these classes interact. For example, the requirements of a contract (e.g. a mortgage needs to be paid) can automatically alter the balance sheets of the involved parties. We are hoping that this basic foundation will save agent-based modelers time by implementing several dynamics which are shared across a variety of economic ABMs.
 
-**ESP** is:
+Long-term, we hope that common implementations of our library can be used to create 'plug and play' economic models. For example, an individual might want to model a housing market where run-of-the-mill banks decide whether to offer mortgages to buyers with varied balance sheets. The intent is that, once someone has developed each of the component parts using our framework, other modelers will be able to quickly plug those components into their own model.
 
-- _Data Driven, Calibrated and Validated:_ ESP manages the
-flow and storage of both model generated data as well as real-world data. The
-user's models will be grounded by their empirical data. Calibration and
-validation techniques will permit the user to adjust their model to fall in
-line with historical data whilst analytic tools will provide the user data on
-the state of the model during run-time.
+We are just starting to build models with our library. As such, we would be very interested in contributions both in the form of use-cases as well as from parties willing to consider using our framework for building their own models. Feel free to [contact us]({{site.url}}/contact/) if you interested in hearing more!  
 
-- _Versatile:_ With multiple entry points, ESP offers users their choice
-in the granularity of control required for their research. Non-programmers
-may instantiate plug-and-play markets, banks, and individuals via a web
-interface. Analysis of agent interactions can be conducted without any
-programming on the end-user side. If the user requires more granular
-control of their system, they may implement their own types of markets,
-banks, etc. By developing classes which meet the ESP's specifications, a user can develop the system to their own specification.
+<h4 style="text-align: center;" markdown="1">**A bit more detail**</h4>
 
-- _Open-Source:_ The development of all ESP libraries will be driven by
-the needs of the economics ABM community. All software development will take place in public: from the start of the project all source code for the ESP project will be hosted on GitHub under a permissive
-Apache 2.0 license that allows for free use of the software libraries (even
-in commercial applications).
+ESL is founded on a belief that many agent-based economic models require a few common components. By building an infrastructure for creating these components, we hope to enable modelers to quickly generate their complex models. Below is a brief description of our core components. A more in depth description is available in our design document.   
 
-- _Modular:_ ESP libraries are structured in a way that minimizes the
-amount of development time needed to reconfigure and existing model or
-build a completely new model. In order to maximize reuse of code, models
-built using our toolkit should be composed of mostly existing components.
-Leveraging mostly existing components reduces development time for a
-new model.
+**Agents**
 
-- _Scalable:_ System size is a key parameter for modeling economic systems
-and in order to accurately model the dynamics of some systems, users
-may need to build and simulate models that are as close to observed
-scale as possible. ESP outsources cluster management to third party
-providers. ABMs built using our framework can be \containerized" using
-technologies such as Docker or Vagrant and then deployed on a third-party
-cloud computing service provider such as AWS, Google Compute Engine,
-Heroku, Mesosphere, etc. This third party provider then handles all of
-the intricacies involved with scaling up the model on the cluster to meet
-our needs.
+Agents represent the decision-making parties in economic systems, including individuals, firms, government entities, etc. They may propose, accept, and fulfill or – depending on the setting  - violate _contracts_. Each agent is equipped with a _balance sheet_ into which their assets, liabilities and contracts are recorded.
 
-- _Reproducible:_ ESP is not dependent on access to university or national supercomputers. This enhances the reproducibility research. The ability to containerize an ABM built using ESP's framework means
-that researchers not directly involved in developing a model can still access
-everything (even down to the operating system) necessary to completely
-reproduce that model's output. The container can be used to run the
-model locally on a laptop or sent to a third party provider to scale up via
-the cloud.
+**Balance sheets**
+
+The balance sheet of an actor is intended to maintain the list of items belonging to that agent, their assets, their liabilities, and their other contracts, e.g. the tangible assets of the agent, the agent’s debt, or their contract to share certain information with another agent.
+
+**Contracts**
+
+Contracts are a commitment by an agent, usually  involving a counterparty. The commitment defines actions which have to be taken by the agent at a certain time, e.g. to transfer a quantity of a good to another agent. ESL shall, however, also allow for more sophisticated designs, such as smart contracts  which specify conditional clauses that become effective contingent upon certain events. Contracts may effect changes to the agent's balance sheets, e.g. transferring an asset from one agent to another; ensuring consistency is of paramount importance in this operation.
+
+As long as a user writes their contracts to our API specifications, then ESL automatically handles the manipulation of agent balance sheets in the background. This will allow users to ignore the implementation details of balance sheet manipulation and focus on the nuances of their model.
+
+**Markets**
+
+A market acts as a trading ground for contracts and goods. A market collects bid and sell orders for a certain class of items, maintains an order book and operates a matching engine that matches orders. Different choices for matching engines are provided. For example, if a user wishes to have use a continuous double auction, then they can pull our implementation, associate the contracts specific to their model and run the simulation.
+
+<h4 style="text-align: center;" markdown="1">**Long-term goals**</h4>
+
+**Modularity**
+
+Initially, Economic Simulation Library will consist of abstract markets, balance sheets, etc. In order to instantiate a model, a user will need to implement the details of their model by extending the abstract classes. However, as instantiations of these classes are developed, they can be used in other models. For example, once a generic fixed-bond contract is implemented, then users can pull the contract and plug it into their own model. The hope is that once enough instantiations of common components have been implemented, then a researcher with limited programming skills will still be able to develop a complex model by plugging in existing components.  
+
+**Data Driven, Calibrated and Validated**
+
+ESL will eventually help manage the flow and storage of both model generated data as well as real-world data. The
+user's models will be grounded by their empirical data. Calibration and validation techniques will permit the user to adjust their model to fall in line with historical data whilst analytic tools will provide the user data on the state of the model during run-time.

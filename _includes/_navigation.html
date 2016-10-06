@@ -54,14 +54,17 @@
 
                       <li><a href="{{ domain }}{{ site.baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
                     {% endfor %}
-                  </ul>
-
+                    </ul>
               </li>
             {% endif %}
           {% endif %}
         {% endfor %}
         {% comment %}   First loop finished 1   {% endcomment %}
+
+        <li> <a href="http://www.inet.ox.ac.uk"> <img width="175px" src="{{site.urlimg}}inetLogo.jpg"> </a> </li>
+
       </ul>
+
 {% comment %}
 
     __         ______     _   __            _             __  _
@@ -90,7 +93,6 @@
             {% if link.dropdown == nil %}
               <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
               <li class="divider"></li>
-
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
             {% else %}
 
@@ -98,6 +100,7 @@
                 <a href="{{ domain }}{{ site.baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
 
                   <ul class="dropdown">
+
                     {% for dropdown_link in link.dropdown %}
 
                       {% if dropdown_link.url contains 'http' %}
@@ -111,6 +114,7 @@
                   </ul>
 
               </li>
+
               <li class="divider"></li>
             {% endif %}
           {% endif %}

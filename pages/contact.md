@@ -10,6 +10,6 @@ header:
 permalink: "/contact/"
 ---
 <br>
-For more information on the ESP project, please contact:
+For more information on the Economic Simulation Library project, please contact:
 <br>
 **<paul.rauwolf@maths.ox.ac.uk>**

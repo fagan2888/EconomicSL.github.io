@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'ESP'
+title: 'Economic Simulation Library'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A toolkit for economic models'
+slogan: 'A library for building agent-based economic systems'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Economic Simulation Platform (ESP)« A toolkit for building economic systems via data-driven agent-based models'
+description: '»Economic Simulation Library« A library for building economic systems via data-driven agent-based models'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -27,7 +27,7 @@ author: prauwolf
 #
 #url: 'https://phlow.github.io/feeling-responsive'
 #url: 'https://prauwolf.github.io'
-url: 'https://prauwolf.github.io/ESP'
+url: 'https://prauwolf.github.io/ESP' #'http://localhost:4000'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -43,7 +43,7 @@ baseurl: ''
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 #urlimg: 'https://prauwolf.github.io/images/'
-urlimg: 'https://prauwolf.github.io/ESP/images/'
+urlimg: 'https://prauwolf.github.io/ESP/images/' #'http://localhost:4000/images/'
 #urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 # Logo size is 600x80 pixels
