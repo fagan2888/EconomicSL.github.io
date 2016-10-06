@@ -20,7 +20,7 @@ We are just starting to build models with our library. As such, we would be very
 
 ESL is founded on a belief that many agent-based economic models require a few common components. By building an infrastructure for creating these components, we hope to enable modelers to quickly generate their complex models. Below is a brief description of our core components. A more in depth description is available in our design document.   
 
-!({{site.urlimg}}uml_esl.jpg)
+<img src="{{site.urlimg}}uml_esl.jpg">
 
 **Agents**
 

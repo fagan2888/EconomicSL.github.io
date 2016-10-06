@@ -12,4 +12,5 @@ permalink: "/contact/"
 <br>
 For more information on the Economic Simulation Library project, please contact:
 <br>
+[here](https://tinyletter.com/EconomicSimulationLibrary)
 **<paul.rauwolf@maths.ox.ac.uk>**
