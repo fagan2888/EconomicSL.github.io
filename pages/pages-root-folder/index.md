@@ -13,7 +13,7 @@ widget1:
   title: "What is ESL?"
   url: '/overview/'
   text: 'Economic Simulation Library is a community driven, open-source project to develop a user-friendly modeling library for building agent-based models of economic systems.'
-  image: economyDown.jpg
+  image: {{site.imgurl}}economyDown.jpg
   #video: '<a href="#" data-reveal-id="https://www.youtube.com/watch?v=wC9dCSYAjFs"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 widget2:
   title: "Blog"
