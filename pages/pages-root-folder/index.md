@@ -24,7 +24,7 @@ widget2:
 
 widget3:
   title: "Download ESL"
-  url: "https://github.com/ScalABM"
+  url: "https://github.com/EconomicSL"
   image: widget-github-303x182.jpg
   text: "Want to begin building your own economic models? Download ESL to get started."
 #
