@@ -20,6 +20,8 @@ We are just starting to build models with our library. As such, we would be very
 
 ESL is founded on a belief that many agent-based economic models require a few common components. By building an infrastructure for creating these components, we hope to enable modelers to quickly generate their complex models. Below is a brief description of our core components. A more in depth description is available in our design document.   
 
+!({{site.urlimg}}uml_esl.jpg)
+
 **Agents**
 
 Agents represent the decision-making parties in economic systems, including individuals, firms, government entities, etc. They may propose, accept, and fulfill or – depending on the setting  - violate _contracts_. Each agent is equipped with a _balance sheet_ into which their assets, liabilities and contracts are recorded.
