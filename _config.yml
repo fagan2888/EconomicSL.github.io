@@ -43,7 +43,7 @@ baseurl: ''
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
 #urlimg: 'https://prauwolf.github.io/images/'
-urlimg: 'https://prauwolf.github.io/ESP/images/' #'http://localhost:4000/images/'
+urlimg: 'https://prauwolf.github.io/images/' #'http://localhost:4000/images/'
 #urlimg: 'https://phlow.github.io/feeling-responsive/images/'
 
 # Logo size is 600x80 pixels
