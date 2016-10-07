@@ -19,7 +19,7 @@ permalink: "/personnel/"
    <i>Professor of Mathematics </i>
    <br>
    <b> email: </b><br> doyne.farmer@inet.ox.ac.uk
-   <b> website:</b><br> <a href="http://www.doynefarmer.com">http://www.doynefarmer.com</a>
+   <br><b> website:</b><br> <a href="http://www.doynefarmer.com">http://www.doynefarmer.com</a>
   </div><!-- /.small-12.columns -->
   <div class="small-8 columns">
 
@@ -38,7 +38,7 @@ J. Doyne Farmer is Director of the Complexity Economics program at the Institute
     <i>Postdoctoral Research Officer</i>
     <br>
     <b> email: </b><br> paul.rauwolf@maths.ox.ac.uk
-    <b> website:</b><br> <a href="https://paulrauwolf.com/">https://paulrauwolf.com/</a>
+    <br><b> website:</b><br> <a href="https://paulrauwolf.com/">https://paulrauwolf.com/</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -59,7 +59,7 @@ Paul Rauwolf is one of the lead software architects for ESL. His research intere
     <i>Postdoctoral Research Officer </i>
     <br>
     <b> email: </b><br> drobert.pugh@gmail.com
-    <b> website:</b><br> <a href="https://www.linkedin.com/in/davidrpugh">https://www.linkedin.com/in/davidrpugh</a>
+    <br><b> website:</b><br> <a href="https://www.linkedin.com/in/davidrpugh">https://www.linkedin.com/in/davidrpugh</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -80,7 +80,7 @@ David Pugh is developing open-source, scalable, data-driven, and reproducible ag
     <i>Postdoctoral Research Officer </i>
     <br>
     <b> email: </b><br> taghawinejad@maths.ox.ac.uk
-    <b> website:</b><br> <a href="http://www.taghawi-nejad.de">http://www.taghawi-nejad.de</a>
+    <br><b> website:</b><br> <a href="http://www.taghawi-nejad.de">http://www.taghawi-nejad.de</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -100,7 +100,7 @@ Davoud Taghawi-Nejad holds a PhD in Economics of Complexity and Innovation. He p
     <i>Postdoctoral Research Officer </i>
     <br>
     <b> email: </b><br> torsten.heinrich@maths.ox.ac.uk
-    <b> website:</b><br> <a href="https://authors.repec.org/pro/phe570/">https://authors.repec.org/pro/phe570/</a>
+    <br><b> website:</b><br> <a href="https://authors.repec.org/pro/phe570/">https://authors.repec.org/pro/phe570/</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -121,7 +121,7 @@ Torsten Heinrich studied economics at the Dresden University of Technology, Germ
     <i>DPhil Candidate</i>
     <br>
     <b> email: </b><br> alissa.kleinnijenhuis@maths.ox.ac.uk
-    <b> website:</b><br> <a href="http://www.inet.ox.ac.uk/people/view/101">http://www.inet.ox.ac.uk/people/view/101</a>
+    <br><b> website:</b><br> <a href="http://www.inet.ox.ac.uk/people/view/101">http://www.inet.ox.ac.uk/people/view/101</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -142,7 +142,7 @@ Alissa Kleinnijenhuis is currently doing her Dphil under the supervision of Prof
     <i>Postdoctoral Research Officer </i>
     <br>
     <b> email: </b><br> adrian.carro@maths.ox.ac.uk
-    <b> website:</b><br> <a href="http://www.inet.ox.ac.uk/people/view/133">http://www.inet.ox.ac.uk/people/view/133</a>
+    <br><b> website:</b><br> <a href="http://www.inet.ox.ac.uk/people/view/133">http://www.inet.ox.ac.uk/people/view/133</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -162,7 +162,9 @@ Adri&aacute;n obtained a degree in Physics from the Universidade de Santiago de 
     <br>
     <i>External Consultant </i>
     <br>
-    <b> email: </b><br> bch@mail.de
+    <b> email: </b>
+    <br> b.herd@oxon.org
+    <br>
     <b> website:</b><br> <a href="http://www.multiagent-simulation.net/">http://www.multiagent-simulation.net/</a>
    </div><!-- /.small-12.columns -->
 
@@ -183,7 +185,7 @@ A Computer Scientist by education, Benjamin C. Herd is primarily a Multiagent Sy
     <i>External Consultant </i>
     <br>
     <b> email: </b><br> juan.sabuco@urjc.es
-    <b> website:</b><br> <a href="http://www.juansabuco.com/">http://www.juansabuco.com/</a>
+    <br><b> website:</b><br> <a href="http://www.juansabuco.com/">http://www.juansabuco.com/</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
@@ -204,7 +206,7 @@ Juan Sabuco is a researcher in the Nonlinear Dynamics, Chaos and Complex Systems
     <i>DPhil Candidate</i>
     <br>
     <b> email: </b><br> rafa.baptista@some.ox.ac.uk
-    <b> website:</b><br> <a href="https://">https://</a>
+    <br><b> website:</b><br> <a href="https://">https://</a>
    </div><!-- /.small-12.columns -->
 
    <div class="small-8 columns">
