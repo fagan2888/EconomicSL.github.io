@@ -6,7 +6,7 @@ meta_title: "Active Projects"
 subheadline: "Who is using Economic Simulation Library?"
 teaser: ""
 header:
-  image_fullwidth: "header_unsplash_12.jpg"
+  image_fullwidth: "busanSuburb.jpg"
 permalink: "/projects/"
 ---
 There are several projects which are planning on using ESL. It is our hope that these varied use cases both: 1.) test the generalizability of our library, and 2.) result in the instantiation of a wide breadth of common economic components which future users can employ.

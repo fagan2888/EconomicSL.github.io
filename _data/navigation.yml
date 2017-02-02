@@ -6,12 +6,12 @@
   url: "/overview/"
   side: left
 
-- title: Blog
-  url: "/blog/"
+- title: News
+  url: "/news/"
   side: left
   dropdown:
-  - title: "Blog Archive"
-    url: "/blog/archive/"
+  - title: "News Archive"
+    url: "/news/archive/"
 
 - title: Documentation
   url: "/documentation/"

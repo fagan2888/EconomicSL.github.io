@@ -25,7 +25,7 @@ author: prauwolf
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://EconomicSL.github.io' #'http://localhost:4000'
+url: 'http://localhost:4000' #'https://EconomicSL.github.io' #'http://localhost:4000'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -38,9 +38,9 @@ baseurl: ''
 # things easier to link to images in posts and templates. It needs a slash at the end.
 #
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
-# Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
+# Markdown~-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://EconomicSL.github.io/images/' #'http://localhost:4000/images/'
+urlimg: 'http://localhost:4000/images/' #'https://EconomicSL.github.io/images/' #'http://localhost:4000/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"
@@ -56,7 +56,7 @@ logo: "logo.png"
 gems:
     - jekyll-gist
     - jekyll-paginate
-    - jekyll/scholar
+
 
 paginate: 5                      # Paginates all X entries
 paginate_path: "blog/page:num"   # Pagination path › Important for blog page in /blog/ to work
@@ -152,33 +152,6 @@ bing_webmastertools_id:    '0FB4C028ABCF07C908C54386ABD2D97F'
 #
 # scholar
 #
-scholar:
-  style: apa
-  locale: en
-
-  sort_by: none
-  order: ascending
-
-  group_by: none
-  group_order: ascending
-
-  source: ./_bibliography
-  bibliography: references.bib
-  bibliography_template: "{{reference}}"
-
-  replace_strings: true
-  join_strings:    true
-
-  use_raw_bibtex_entry: false
-  bibtex_filters:
-  - superscript
-  - latex
-
-  details_dir:    bibliography
-  details_layout: bibtex.html
-  details_link:   Details
-
-  query: "@*"
 
 
 #       ______            _

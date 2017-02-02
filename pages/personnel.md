@@ -199,13 +199,13 @@ Juan Sabuco is a researcher in the Nonlinear Dynamics, Chaos and Complex Systems
 <div  class="row t30 b20 homepage">
 
     <div class="small-3 columns">
-    <img src="{{site.urlimg}}rafa.jpg">
+    <img src="{{site.urlimg}}rafa_full.jpg">
     <br>           
     <b>Rafa Baptista</b>
     <br>
     <i>DPhil Candidate</i>
     <br>
-    <b> email: </b><br> rafa.baptista@some.ox.ac.uk
+    <b> email: </b><br>rafa.baptista@keble.ox.ac.uk
     <br><b> website:</b><br> <a href="https://">https://</a>
    </div><!-- /.small-12.columns -->
 
