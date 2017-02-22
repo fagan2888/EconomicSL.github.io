@@ -17,10 +17,10 @@ widget1:
   #video: '<a href="#" data-reveal-id="https://www.youtube.com/watch?v=wC9dCSYAjFs"><img src="http://phlow.github.io/feeling-responsive/images/start-video-feeling-responsive-302x182.jpg" width="302" height="182" alt=""/></a>'
 
 widget2:
-  title: "Blog"
-  url: "/blog/"
+  title: "News"
+  url: "/news/"
   image: widget-1-302x182.jpg
-  text: "Development of ESL is underway. Check out our blog to see what's new."
+  text: "Development of ESL is underway. Check out what's new."
 
 widget3:
   title: "Download ESL"

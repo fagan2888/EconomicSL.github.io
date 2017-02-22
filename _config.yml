@@ -11,10 +11,10 @@
 title: 'Economic Simulation Library'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'A library for building agent-based economic systems'
+slogan: 'A library for modelling economic systems'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: '»Economic Simulation Library« A library for building economic systems via data-driven agent-based models'
+description: '»Economic Simulation Library« A library for building data-driven agent-based models of the economy'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -25,7 +25,8 @@ author: prauwolf
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://EconomicSL.github.io' #'http://localhost:4000'
+url: 'https://EconomicSL.github.io'
+#url: 'http://localhost:4000'
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -40,7 +41,8 @@ baseurl: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown~-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://EconomicSL.github.io/images/' #'http://localhost:4000/images/'
+urlimg: 'https://EconomicSL.github.io/images/'
+#urlimg: 'http://localhost:4000/images/'
 
 # Logo size is 600x80 pixels
 logo: "logo.png"

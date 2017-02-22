@@ -17,5 +17,12 @@ dpugh: # replace this with your info
   name: "David Pugh"
   siterole: "webmaster"
   uri: http://inet.ox.ac.uk/
-  email: drobert.pugh@gmai.com
+  email: drobert.pugh@gmail.com
   twitter:
+
+adrian_carro:
+  name: "Adrián Carro"
+  siterole: "webmaster"
+  uri: http://inet.ox.ac.uk/
+  email: adrian.carro@maths.ac.uk
+  github: adrian-carro

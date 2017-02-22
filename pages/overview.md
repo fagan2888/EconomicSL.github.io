@@ -2,7 +2,7 @@
 layout: page
 sidebar: right
 title: "Overview"
-meta_title: "Economic Simulation Platform"
+meta_title: "Economic Simulation Library"
 subheadline: "A toolkit for building models of economic systems"
 teaser: ""
 header:
