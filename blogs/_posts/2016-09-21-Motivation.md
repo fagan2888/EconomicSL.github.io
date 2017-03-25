@@ -5,7 +5,7 @@ subheadline: "Behind the Scenes"
 meta_teaser: "The impetus behind ESL"
 teaser: "Why are we building ESL?"
 header:
-    image_fullwidth: RauwolfMtnCloud.JPG
+    image_fullwidth: header_panic_1907.png
 image:
     thumb:  rockclimbingIcon.jpg
     homepage: carrot.JPG
