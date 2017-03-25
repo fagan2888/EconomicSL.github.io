@@ -18,7 +18,7 @@ widget1:
 widget2:
   title: "News"
   url: "/news/"
-  image: widget-1-302x182.jpg
+  image: widget_news.png
   text: "Development of ESL is underway. Check out what's new."
 
 widget3:
