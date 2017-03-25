@@ -5,7 +5,7 @@ subheadline: "Documentation"
 meta_teaser: "Planning the future of ESL"
 teaser: "Interested in what we're planning for ESL?"
 header:
-    image_fullwidth: RauwolfMtnCloud.JPG
+    image_fullwidth: header_white_board.png
 image:
     thumb:  rockclimbingIcon.jpg
 comments: true
