@@ -5,7 +5,7 @@ meta_title: "Personnel"
 subheadline: "Who's who?"
 teaser: ""
 header:
-  image_fullwidth: "RauwolfBethesda.jpg"
+  image_fullwidth: "header_bank_run_greece.png"
 permalink: "/personnel/"
 ---
 

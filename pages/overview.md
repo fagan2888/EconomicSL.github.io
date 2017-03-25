@@ -6,7 +6,7 @@ meta_title: "Economic Simulation Library"
 subheadline: "A toolkit for building models of economic systems"
 teaser: ""
 header:
-  image_fullwidth: panic_1907.png
+  image_fullwidth: header_fabela_wealth_poverty.png
 permalink: "/overview/"
 ---
 

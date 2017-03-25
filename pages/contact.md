@@ -6,7 +6,7 @@ meta_title: "Contact Us"
 subheadline: "Have a question or want to get involved?"
 teaser: ""
 header:
-  image_fullwidth: "RauwolfBethesda.jpg"
+  image_fullwidth: "header_traffic_jam.png"
 permalink: "/contact/"
 ---
 

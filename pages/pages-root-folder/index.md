@@ -6,8 +6,7 @@
 #
 layout: frontpage
 header:
-  #image_fullwidth: header_unsplash_12.jpg
-  image_fullwidth: scalABM-bg.jpg
+  image_fullwidth: header_banknotes.jpg
 
 widget1:
   title: "What is ESL?"

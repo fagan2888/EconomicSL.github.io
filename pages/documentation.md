@@ -6,7 +6,7 @@ teaser: "The documentation is a work in progress..."
 permalink: "/documentation/"
 breadcrumb: true
 header:
-   image_fullwidth: "bank_run_greece.png"
+   image_fullwidth: "header_white_board.png"
 sidebar: right
 ---
 <div id="blog-index" class="row">
